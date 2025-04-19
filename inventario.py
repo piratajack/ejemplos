@@ -8,8 +8,8 @@ def valor_total_inventario(inventario: dict[str, tuple[int, float]]) -> float:  
     return total   #aca se devuelve el total del inventario 
 inventario = {     #estos serian nuestros productos con sus respectivas cantidades y precios 
     'manzanas': (100, 0.5),
-    'naranjas': (80, 0.75),
-    'plátanos': (50, 0.6)
+    'naranjas': (100, 0.75),
+    'plátanos': (100, 0.6)
 }
 
 valor_total = valor_total_inventario(inventario)
